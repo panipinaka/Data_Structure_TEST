@@ -69,7 +69,7 @@ Heap heap_new(f data[], uint32_t len) {
 
 	return heap;
 }
-/*
+
 Heap*	heap_sort(Heap *heap) {
 	assert (heap->size > 0 && heap->size < HEAP_MAX_SIZE);
 
@@ -83,7 +83,7 @@ Heap*	heap_sort(Heap *heap) {
 	return heap;
 }
 
-
+/*
 Heap*	heap_insert(Heap *heap, int32_t key)
 {
 	assert (heap->size > 0 && heap->size+1 < HEAP_MAX_SIZE);
