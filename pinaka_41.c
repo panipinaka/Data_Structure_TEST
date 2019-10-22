@@ -35,7 +35,7 @@ static void _heapify_ (f data[], uint32_t len, uint32_t parent) {
 		if (data[parent].time_stamp >= data[child].time_stamp) {
 			break;
 		}
-		_swap_(&data[parent].time_stamp, &data[child].time_stamp);
+		_swap_(&data[parent], &data[child]);
 		parent = child;
 		child = 2 * parent;
 	}
